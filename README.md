@@ -48,7 +48,6 @@
 ![Operations Suite](https://img.shields.io/badge/Operations%20Suite-Monitoring%20%26%20Logs-34A853.svg?logo=googlecloud)
 ![Billing](https://img.shields.io/badge/Cloud%20Billing-Cost%20Management-4285F4.svg?logo=googlecloud)
 
-
 </details>
 
 <details>
