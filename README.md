@@ -1,5 +1,5 @@
 <details>
-<summary>## 🧭 Pathfinder AI — University Guidance System
+<summary>###🧭 Pathfinder AI — University Guidance System
 
 > *"Precision through Perspective."*  
 > Pathfinder is an advanced AI counseling system designed to analyze your academic, personal, and career profile through multi-layered intelligence protocols — delivering the most personalized university recommendations possible.
@@ -52,7 +52,7 @@
 </details>
 
 <details>
-<summary>## 🔥 Inspiration ✨🔥
+<summary>###🔥 Inspiration ✨🔥
 
 Pathfinder was born from one simple spark: students deserve a college counselor that thinks as deeply, broadly, and honestly as they do.  
 We wanted an experience that feels like a brilliant human mentor + a supercomputer — empathetic, curious, and forensic — packaged inside a playful, unforgettable UI.  
@@ -63,7 +63,7 @@ So we built an AI that asks the brave questions, reveals how it reasons, and han
 </details>
 
 <details>
-<summary>## 🧭 What it does 🤖
+<summary>###🧭 What it does 🤖
 
 Pathfinder.AI is your personal university strategist. It:  
 - 🗣️🔎 Interviews students in a natural, conversational flow to extract explicit facts and subtle, hidden preferences (passions, constraints, learning style, campus vibe).  
@@ -77,7 +77,7 @@ Pathfinder.AI is your personal university strategist. It:
 </details>
 
 <details>
-<summary>## 🛠️ How we built it 🧩
+<summary>## #🛠️ How we built it 🧩
 
 - **Multi-Model Prompting Architecture** —  seven conceptual models that each analyze the student profile and produce insights for synthesis. 🤝  
 - **Live Sidebar “AI Team”** — displays seven models + Lead Counselor + Red Team; updates in real-time as you chat. 🧑‍💻➡️👥  
@@ -92,7 +92,7 @@ Pathfinder.AI is your personal university strategist. It:
 </details>
 
 <details>
-<summary>## 🧗‍♀️ Challenges we ran into ⚠️
+<summary>###🧗‍♀️ Challenges we ran into ⚠️
 
 - Transparency vs. Overwhelm — showing internal model chatter without cognitive overload. 🧠➡️🎛️  
 - Avoiding False Confidence — mitigating models sounding certain when evidence is thin. ⚖️🔍  
