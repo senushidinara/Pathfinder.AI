@@ -55,7 +55,6 @@
 Pathfinder was born from one simple spark: students deserve a college counselor that thinks as deeply, broadly, and honestly as they do.  
 We wanted an experience that feels like a brilliant human mentor + a supercomputer — empathetic, curious, and forensic — packaged inside a playful, unforgettable UI.  
 So we built an AI that asks the brave questions, reveals how it reasons, and hands students not just lists of colleges but tightly justified, image-backed trajectories. 🌍🎓💡
-
 </details>
 
 <details>
@@ -73,7 +72,7 @@ Pathfinder.AI is your personal university strategist. It:
 </details>
 
 <details>
-<summary>## #🛠️ How we built it 🧩
+<summary>#🛠️ How we built it 🧩
 
 - **Multi-Model Prompting Architecture** —  seven conceptual models that each analyze the student profile and produce insights for synthesis. 🤝  
 - **Live Sidebar “AI Team”** — displays seven models + Lead Counselor + Red Team; updates in real-time as you chat. 🧑‍💻➡️👥  
