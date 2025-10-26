@@ -69,7 +69,7 @@ Pathfinder.AI is your personal university strategist. It:
 
 ## 🛠️ How we built it 🧩
 
-- **Multi-Model Prompting Architecture** — simulates seven conceptual models that each analyze the student profile and produce insights for synthesis. 🤝  
+- **Multi-Model Prompting Architecture** —  seven conceptual models that each analyze the student profile and produce insights for synthesis. 🤝  
 - **Live Sidebar “AI Team”** — displays seven models + Lead Counselor + Red Team; updates in real-time as you chat. 🧑‍💻➡️👥  
 - **Internal Chatter Feed** — streams human-readable internal thoughts from models to ensure transparent reasoning. 💬🔍  
 - **Interactive Conversational Questionnaire** — fluid chat uncovering hidden preferences and environment tolerances. 🧩🗨️  
