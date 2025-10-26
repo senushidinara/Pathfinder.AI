@@ -1,9 +1,7 @@
 <details>
 <summary>###🧭 Pathfinder AI — University Guidance System
-
 > *"Precision through Perspective."*  
 > Pathfinder is an advanced AI counseling system designed to analyze your academic, personal, and career profile through multi-layered intelligence protocols — delivering the most personalized university recommendations possible.
-
 ---
 ![GCP](https://img.shields.io/badge/GCP-Cloud%20Platform-blue?logo=google-cloud)
 ![Compute Engine](https://img.shields.io/badge/Compute%20Engine-4285F4?logo=googlecloud)
