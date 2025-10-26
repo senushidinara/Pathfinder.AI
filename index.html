@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gemini College Pathfinder</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <style>
+      /* Custom font for a more academic/professional feel */
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+      @keyframes subtle-gradient {
+        0% { background-position: 0% 50%; }
+        50% { background-position: 100% 50%; }
+        100% { background-position: 0% 50%; }
+      }
+      @keyframes starfield {
+        from {transform: translateY(0px);}
+        to {transform: translateY(-2000px);}
+      }
+      body {
+        font-family: 'Inter', sans-serif;
+        background-color: #030712; /* Fallback */
+        background-image: linear-gradient(-45deg, #030712, #111827, #1e1b4b, #030712);
+        background-size: 400% 400%;
+        animation: subtle-gradient 30s ease infinite;
+        position: relative;
+        overflow-x: hidden;
+      }
+      body::before { /* Grid overlay */
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: radial-gradient(circle at 1px 1px, rgba(255,255,255,0.05) 1px, transparent 0);
+        background-size: 2rem 2rem;
+        z-index: -1;
+      }
+      body::after { /* Starfield overlay */
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: -2;
+        background: transparent url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 2000"><circle fill="%23fff" cx="200" cy="200" r="1.5"/><circle fill="%23fff" cx="500" cy="800" r="1"/><circle fill="%23fff" cx="900" cy="300" r="1.2"/><circle fill="%23fff" cx="1200" cy="1100" r="1"/><circle fill="%23fff" cx="1500" cy="600" r="1.5"/><circle fill="%23fff" cx="1800" cy="1400" r="1"/><circle fill="%23fff" cx="700" cy="1600" r="1.2"/><circle fill="%23fff" cx="300" cy="1200" r="1"/><circle fill="%23fff" cx="1100" cy="1800" r="1"/><circle fill="%23fff" cx="1600" cy="100" r="1.2"/></svg>');
+        animation: starfield 60s linear infinite;
+      }
+
+      .glowing-border::before {
+        content: '';
+        position: absolute;
+        inset: -1.5px;
+        border-radius: 1rem; /* same as rounded-2xl */
+        background: conic-gradient(from 180deg at 50% 50%, #4f46e5 0deg, #a855f7 180deg, #ec4899 1turn);
+        z-index: 0;
+        animation: pulse-glow 4s ease-in-out infinite;
+      }
+
+      .glowing-border::after { /* Scanlines */
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        border-radius: 1rem;
+        background: linear-gradient( to bottom, rgba(25, 29, 56, 0) 0%, rgba(25, 29, 56, 0.4) 50%, rgba(25, 29, 56, 0) 100% );
+        background-size: 100% 4px;
+        animation: scan 10s linear infinite;
+        pointer-events: none;
+        z-index: 2;
+      }
+      @keyframes scan {
+        from { background-position-y: 0; }
+        to { background-position-y: 200px; }
+      }
+
+      @keyframes pulse-glow {
+        0%, 100% { opacity: 0.5; }
+        50% { opacity: 0.9; }
+      }
+      @keyframes pulse-subtle {
+        0%, 100% { transform: scale(1); opacity: 0.8; }
+        50% { transform: scale(1.15); opacity: 1; }
+      }
+      @keyframes pulse-bar {
+        0%, 100% { transform: scaleY(0.1); opacity: 0.3; }
+        50% { transform: scaleY(1); opacity: 1; }
+      }
+      @keyframes fade-in-up {
+        from { opacity: 0; transform: translateY(10px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+       @keyframes fade-in {
+        from { opacity: 0; }
+        to { opacity: 1; }
+      }
+      .animate-fade-in {
+        animation: fade-in 0.5s ease-out forwards;
+      }
+      .animate-fade-in-up {
+        animation: fade-in-up 0.5s ease-out forwards;
+      }
+      .custom-select {
+        appearance: none;
+        -webkit-appearance: none;
+        background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%2E%2E%2E%3C%2Fsvg%3E');
+        background-repeat: no-repeat;
+        background-position: right 0.75rem center;
+        background-size: 1.25em;
+        padding-right: 2.5rem !important; /* Make space for the arrow */
+      }
+
+      /* Typewriter effect */
+      @keyframes typing {
+        from { width: 0 }
+        to { width: 100% }
+      }
+      @keyframes blink-caret {
+        from, to { border-color: transparent }
+        50% { border-color: #a855f7; } /* A futuristic purple */
+      }
+      /* Boot sequence animation */
+       @keyframes boot-line {
+        from { width: 0%; }
+        to { width: 100%; }
+      }
+      @keyframes boot-text-fade-in {
+        from { opacity: 0; }
+        to { opacity: 1; }
+      }
+
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.27.0",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/"
+  }
+}
+</script>
+</head>
+  <body class="text-gray-200">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
