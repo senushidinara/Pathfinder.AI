@@ -3,8 +3,8 @@
    
 > *"Precision through Perspective."*  
 > Pathfinder is an advanced AI counseling system designed to analyze your academic, personal, and career profile through multi-layered intelligence protocols — delivering the most personalized university recommendations possible. 🌟🤖🎓
+
 </details>
----
 
 <details>
 <summary>🛠️ Badges & Infrastructure 🖥️☁️</summary>
@@ -50,10 +50,6 @@
 <details>
 <summary>🔥 Inspiration ✨🔥</summary
 
-</details>
-
-<details>
-<summary>🔥 Inspiration ✨💡</summary>
 
 Pathfinder was born from one simple spark: students deserve a college counselor that thinks as deeply, broadly, and honestly as they do.  
 We built an AI that asks the brave questions, reveals how it reasons, and hands students tightly justified trajectories. 🌍🎓💡💬
