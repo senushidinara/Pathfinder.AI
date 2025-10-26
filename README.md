@@ -251,7 +251,7 @@ Only results that **pass all three stages** — *Analysis, Synthesis, and Valida
 </details>
 
 <details>
-<summary>## 🌐 System Metrics
+<summary>🌐 System Metrics</summary>
 
 | Parameter | Status |
 |:--|:--|
