@@ -201,7 +201,7 @@ Focuses on long-term ambitions and links them with universities supporting simil
 </details>
 
 <details>
-<summary>## 🔍 Pathfinder Analysis Protocol
+<summary>🔍 Pathfinder Analysis Protocol</summary>
 
 Your recommendations are the result of a **rigorous, multi-stage validation framework** designed to ensure maximum reliability and personalization.
 
