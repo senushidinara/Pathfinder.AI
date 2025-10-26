@@ -45,7 +45,6 @@
 ![IAM](https://img.shields.io/badge/IAM-Access%20Management-4285F4.svg?logo=googlecloud)
 ![Operations Suite](https://img.shields.io/badge/Operations%20Suite-Monitoring%20%26%20Logs-34A853.svg?logo=googlecloud)
 ![Billing](https://img.shields.io/badge/Cloud%20Billing-Cost%20Management-4285F4.svg?logo=googlecloud)
-
 </details>
 
 <details>
@@ -69,7 +68,6 @@ We built an AI that asks the brave questions, reveals how it reasons, and hands 
 - 🏛️ Produces ranked, evidence-backed global college recommendations with images and Personalization Score  
 - 👀 Shows live internal chatter and Red Team validation for transparency  
 - 🗂️ Allows filtering and finalizing recommendations with a single button  
-
 </details>
 
 <details>
