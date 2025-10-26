@@ -1,4 +1,5 @@
-### 🧭 Pathfinder AI — University Guidance System
+<details>
+<summary>## 🧭 Pathfinder AI — University Guidance System
 
 > *"Precision through Perspective."*  
 > Pathfinder is an advanced AI counseling system designed to analyze your academic, personal, and career profile through multi-layered intelligence protocols — delivering the most personalized university recommendations possible.
@@ -48,7 +49,10 @@
 ![Billing](https://img.shields.io/badge/Cloud%20Billing-Cost%20Management-4285F4.svg?logo=googlecloud)
 
 
-## 🔥 Inspiration ✨🔥
+</details>
+
+<details>
+<summary>## 🔥 Inspiration ✨🔥
 
 Pathfinder was born from one simple spark: students deserve a college counselor that thinks as deeply, broadly, and honestly as they do.  
 We wanted an experience that feels like a brilliant human mentor + a supercomputer — empathetic, curious, and forensic — packaged inside a playful, unforgettable UI.  
@@ -56,7 +60,10 @@ So we built an AI that asks the brave questions, reveals how it reasons, and han
 
 ---
 
-## 🧭 What it does 🤖
+</details>
+
+<details>
+<summary>## 🧭 What it does 🤖
 
 Pathfinder.AI is your personal university strategist. It:  
 - 🗣️🔎 Interviews students in a natural, conversational flow to extract explicit facts and subtle, hidden preferences (passions, constraints, learning style, campus vibe).  
@@ -67,7 +74,10 @@ Pathfinder.AI is your personal university strategist. It:
 
 ---
 
-## 🛠️ How we built it 🧩
+</details>
+
+<details>
+<summary>## 🛠️ How we built it 🧩
 
 - **Multi-Model Prompting Architecture** —  seven conceptual models that each analyze the student profile and produce insights for synthesis. 🤝  
 - **Live Sidebar “AI Team”** — displays seven models + Lead Counselor + Red Team; updates in real-time as you chat. 🧑‍💻➡️👥  
@@ -79,7 +89,10 @@ Pathfinder.AI is your personal university strategist. It:
 
 ---
 
-## 🧗‍♀️ Challenges we ran into ⚠️
+</details>
+
+<details>
+<summary>## 🧗‍♀️ Challenges we ran into ⚠️
 
 - Transparency vs. Overwhelm — showing internal model chatter without cognitive overload. 🧠➡️🎛️  
 - Avoiding False Confidence — mitigating models sounding certain when evidence is thin. ⚖️🔍  
@@ -89,7 +102,10 @@ Pathfinder.AI is your personal university strategist. It:
 
 ---
 
-## 🏆 Accomplishments that we're proud of ✨
+</details>
+
+<details>
+<summary>## 🏆 Accomplishments that we're proud of ✨
 
 - ✅ Seven-Model, Explainable Reasoning — including Learning Style Adaptor & Cultural Fit Assessor.  
 - ✅ Live Internal Chatter Feature — transparency of model activations in real time. 👀  
@@ -99,7 +115,10 @@ Pathfinder.AI is your personal university strategist. It:
 
 ---
 
-## 📚 What we learned 🔬
+</details>
+
+<details>
+<summary>## 📚 What we learned 🔬
 
 - Transparency builds trust — short, prioritized chatter + “expand for detail” works best. ✅  
 - Quoting the user improves acceptance and perceived accuracy. 🗂️🗣️  
@@ -109,7 +128,10 @@ Pathfinder.AI is your personal university strategist. It:
 
 ---
 
-## ⚙️ Initialization Sequence
+</details>
+
+<details>
+<summary>## ⚙️ Initialization Sequence
 
 ```bash
 🚀 Initializing Core Systems…
@@ -140,7 +162,10 @@ Pathfinder.AI is your personal university strategist. It:
 
 ---
 
-## 🧑‍💻 AI Team Modules
+</details>
+
+<details>
+<summary>## 🧑‍💻 AI Team Modules
 
 | Module | Status | Description |
 |:--|:--|:--|
@@ -158,7 +183,10 @@ Pathfinder.AI is your personal university strategist. It:
 
 ---
 
-## 💬 Upgraded Conversational Intelligence
+</details>
+
+<details>
+<summary>## 💬 Upgraded Conversational Intelligence
 
 ### 🧡 More Empathetic, Probing Conversations  
 Pathfinder’s AI core now uses a **Human-Centered Dialogue Engine** that begins with open-ended discovery questions. It aims to understand *who you are* before analyzing what you’ve done.  
@@ -172,7 +200,10 @@ It employs an **Advanced Questioning Strategy** that:
 
 ---
 
-## 📄 Analysis & Export System
+</details>
+
+<details>
+<summary>## 📄 Analysis & Export System
 
 - **User-Controlled Finalization** — trigger the deep-dive analysis at any time via the **“Finalize & View Recommendations”** button.  
 - **Dual Export Options** — download both your **Comprehensive Analysis Report** and **Personalized Recommendation Report** as professional PDFs.  
@@ -181,7 +212,10 @@ It employs an **Advanced Questioning Strategy** that:
 
 ---
 
-## 🚀 What's Next for PATHFINDER.AI 🔭
+</details>
+
+<details>
+<summary>## 🚀 What's Next for PATHFINDER.AI 🔭
 
 1.🎤 **Interview Simulator** — practice real university interview questions with AI scoring and feedback.  
 2.💸 **Scholarship & Financial Pathways** — auto-matching scholarship opportunities with guided applications.  
@@ -200,7 +234,10 @@ It employs an **Advanced Questioning Strategy** that:
 
 ---
 
-## 🔍 Pathfinder Analysis Protocol
+</details>
+
+<details>
+<summary>## 🔍 Pathfinder Analysis Protocol
 
 Your recommendations are the result of a **rigorous, multi-stage validation framework** designed to ensure maximum reliability and personalization.
 
@@ -247,7 +284,10 @@ Only results that **pass all three stages** — *Analysis, Synthesis, and Valida
 
 ---
 
-## 🌐 System Metrics
+</details>
+
+<details>
+<summary>## 🌐 System Metrics
 
 | Parameter | Status |
 |:--|:--|
